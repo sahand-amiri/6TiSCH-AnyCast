@@ -33,3 +33,21 @@ Simulated protocol stack
 * To plot the graphs, you need Matplotlib and scipy. On Windows, Anaconda (http://continuum.io/downloads) is a good one-stop-shop.
 
 While 6TiSCH Simulator has been tested with Python 2.7, it should work with Python 3 as well.
+
+## Getting Started
+
+1. Download the code:
+   ```
+   $ git clone https://bitbucket.org/6tisch/simulator.git
+   ```
+1. Install the Python dependencies:
+   `cd simulator` and `pip install -r requirements.txt`
+1. Execute `runSim.py` or start the GUI:
+    * runSim.py
+       ```
+       $ cd bin
+       $ python runSim.py
+       ```
+        * a new directory having the timestamp value as its name is created under
+          `bin/simData/` (e.g., `bin/simData/20181203-161254-775`)
+        * raw output data and raw charts are stored in the newly created directory
