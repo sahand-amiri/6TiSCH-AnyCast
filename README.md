@@ -42,6 +42,7 @@ While 6TiSCH Simulator has been tested with Python 2.7, it should work with Pyth
    ```
 1. Install the Python dependencies:
    `cd simulator` and `pip install -r requirements.txt`
+1. Replace the files in this repository with files of the same name
 1. Execute `runSim.py` or start the GUI:
     * runSim.py
        ```
